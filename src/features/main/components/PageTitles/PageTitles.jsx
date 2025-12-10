@@ -1,6 +1,8 @@
 import styled  from 'styled-components'
 import CoursesIcon from '../../../../assets/icons/coursesIcon.svg'
-import  LibraryIcon  from '../../../../assets/icons/books.svg'
+import LibraryIcon from '../../../../assets/icons/books.svg'
+import { Link } from 'react-router-dom';
+
 const CoursesPage = styled.div`
     display: flex;
     align-items: center;
@@ -14,7 +16,7 @@ const CoursesPage = styled.div`
     border: 1.6px solid #1B3647;
     user-select: none;
     
-    p{
+    a{
         cursor: pointer;
         width: 76px;
         height: 20px;
@@ -23,6 +25,10 @@ const CoursesPage = styled.div`
         margin-left: 12px;
         font-family: sans-serif;
         font-weight: bold;
+        text-decoration: none;
+        &:active{
+            color: #1C92E0;
+        }
     }
 `;
 
@@ -40,7 +46,7 @@ const LibraryPage = styled.div`
     border: 1.6px solid #1B3647;
     user-select: none;
 
-    p{
+    a{
         width: 76px;
         height: 20px;
         color: #F7F9FA;
@@ -49,6 +55,10 @@ const LibraryPage = styled.div`
         font-family: sans-serif;
         font-weight: bold;
         cursor: pointer;
+        text-decoration: none;
+        &:active{
+        color: #1C92E0;
+        }
     }
 `; 
 
@@ -59,11 +69,11 @@ export function PageTitles() {
         <>
             <CoursesPage>
                 <img src={CoursesIcon } alt="icon" />
-                <p>Kurslar</p>
+                <Link to={'courses'}>Kurslar</Link>
             </CoursesPage>
             <LibraryPage>
                 <img src={ LibraryIcon} alt="icon" />
-                <p>Kutubxona</p>
+                <Link to={ 'library'}>Kutubxona</Link>
             </LibraryPage>
         </>
     )

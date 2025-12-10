@@ -128,6 +128,33 @@ const PersonName = styled.p`
     color: white;
 `;
 
+import { NavLink } from "react-router-dom";
+
+export const StyledLink = styled(NavLink)`
+    position: relative;
+    color: #444;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-left: -20px;
+
+  &.active {
+    color: white;
+    font-weight: 600;
+  }
+
+  &.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; 
+    left: 0;
+    width: 100%;
+    height: 2px;      
+    background: #1C92E0;
+    border-radius: 2px;
+`;
+
+
 
 
 
@@ -145,11 +172,11 @@ export function Header() {
                 </Language>  
             </ImgSelect>
             <List>
-                <Link to="/">Asosiy</Link>
-                <Link to="/news">Yangiliklar</Link>
-                <Link to="/courses">Kurslar</Link>
-                <Link to="library">Kutubxona</Link>
-                <Link to="contact">Bog‘lanish</Link>
+                <StyledLink to="/" >Asosiy</StyledLink>
+                <StyledLink to="/news">Yangiliklar</StyledLink>
+                <StyledLink to="/courses">Kurslar</StyledLink>
+                <StyledLink to="library">Kutubxona</StyledLink>
+                <StyledLink to="contact">Bog‘lanish</StyledLink>
             </List>
             <HeaderIcons>
                 <Icons>
@@ -171,3 +198,28 @@ export function Header() {
         </StyledHeader>
     )
 }
+
+
+// import styles from './Header.module.css';
+// import {Link, NavLink} from 'react-router-dom';
+
+// export default function Header() {
+//     return (
+//         <header className={styles.header}>
+//             <nav>
+//                 <ul>
+//                     <li><NavLink end={true} to={'/'} style={({isActive}) => {
+//                         return {color: isActive ? 'teal' : 'white'}
+//                     }}>Main</NavLink></li>
+//                     <li><NavLink end={true} to={'/news'} style={({isActive}) => {
+//                         return {color: isActive ? 'teal' : 'white'}
+//                     }}>News</NavLink></li>
+//                     <li><NavLink end={true} to={'/news/detail'} style={({isActive}) => {
+//                         return {color: isActive ? 'teal' : 'white'}
+//                     }}>NewsDetail</NavLink></li>
+//                 </ul>
+//             </nav>
+//         </header>
+//     )
+// }
+
