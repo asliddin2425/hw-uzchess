@@ -5,7 +5,6 @@
     height: 1286px;
     margin-left: 1088px;
     margin-top: -712px;
-    background-color: #6F767E;
     gap: 24px;
 }
 .acideDonation{
@@ -198,5 +197,12 @@
     font-family: sans-serif;
     font-weight: 400;
     color: #B4B5B6;
+}
+
+.topBooks{
+    width: 326px;
+    height: 470px;
+    background: #1A1D1F;
+    border-radius: 8px;
 }
 

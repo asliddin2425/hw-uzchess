@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import './Counter.css'
+import styles from'./Counter.module.css'
 
 export function Counter() {
   const [count, setCount] = useState(1);
@@ -8,7 +8,7 @@ export function Counter() {
 
 
   return (
-    <div className='box'>
+    <div className={styles.box} >
       
         <Dec count={count} setCount={setCount} />
         <h6>{count}</h6>
@@ -24,7 +24,7 @@ function Inc({ count, setCount }) {
 
   }
   return (
-    <button  className='musbat' onClick={InClick}>+</button>
+    <button className={ styles.musbat} onClick={InClick}>+</button>
   )
 }
 
@@ -35,7 +35,7 @@ function Dec({ count, setCount }) {
     }
   }
   return (
-      <button className={ count==1 ? "active-manfiy" : "manfiy" } onClick={DecClick}>-</button>
+      <button className={ count==1 ? styles.activeManfiy : styles.manfiy } onClick={DecClick}>-</button>
   )
 }
 

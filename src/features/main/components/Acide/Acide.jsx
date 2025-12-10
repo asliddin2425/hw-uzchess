@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import DonationIcon from '../../../../assets/icons/donationIcon.svg'
 import Banner from '../../../../assets/images/banner.svg'
 import Vector from '../../../../assets/icons/vektor.svg'
-import CourseImg from '../../../../assets/images/topCoursesImg1.svg'
 import Star from '../../../../assets/icons/topCoursesStar.svg'
 import ViewsIcon from '../../../../assets/icons/viewsIcon.svg'
 import { MainTopCoursesData } from '../../../../Api/Api'
@@ -12,7 +11,8 @@ export function Acide() {
         <div className={styles.acide}>
             <AcideDonation />
             <AcideBanner />
-            <AcideTopCourses data={ MainTopCoursesData} />
+            <AcideTopCourses data={MainTopCoursesData} />
+            <TopBooks/>
         </div>
     )
 }
@@ -83,6 +83,16 @@ export function CoursesList({ data}) {
             </div>
             ))
         }
+        </>
+    )
+}
+
+export function TopBooks() { 
+    return (
+        <>
+            <div className={styles.topBooks}>
+
+            </div>
         </>
     )
 }
