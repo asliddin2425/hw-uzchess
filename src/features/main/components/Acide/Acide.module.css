@@ -66,6 +66,7 @@
 
 
 
+
 .topCourses{
     display: flex;
     flex-direction: column;
@@ -84,7 +85,7 @@
     width: 326px;
     height: 24px;
     margin-top: 16px;
-    background-color: red;
+    user-select: none;
 }
 
 .header h6{
@@ -113,15 +114,14 @@
         color: white;
     }
 }
-
 .main{
-    display: flex;
-    justify-content: center;
-    align-items: start;
     width: 310px;
     height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 12px;
-    background-color: red;
 }
 
 .coursesCard1{
@@ -130,8 +130,19 @@
     justify-content: space-between;
     align-items: center;
     width: 294px;
-    height: 106px;
-    background-color: blue;
+    height: 80px;
+    border-bottom: 1px solid #272B30;
+    border-top: 1px solid #272B30;
+    user-select: none;
+    &:hover{
+        background-color: #13181C;
+        cursor: pointer;
+        width: 326px;
+        height: 106px;
+    &:active, p{
+        color: #1C82E0;
+    }
+    }
 }
 .cardImg img{
     width: 80px;
@@ -144,7 +155,6 @@
     display: flex;
     width: 196px;
     height: 78px;
-    background-color: red;
 }
 
 .topCoursesAbout p{
@@ -152,7 +162,6 @@
     margin-top: 0px;
     width: 204px;
     height: 42px;
-    background-color: teal;
     color: white;
     font-size: 14px;
     font-family: sans-serif;
@@ -160,10 +169,35 @@
 
 }
 .ratingAndViews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60px;
     height: 45px;
     margin-left:-204px;
     margin-top: 42px;
-    background-color: #1C82E0;
+}
+
+.coursesRating{
+    display: flex;
+    align-items: center;
+    width: 41px;
+    height: 21px;
+    gap: 4px;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.viewsCounter{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 20px;
+    gap: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #B4B5B6;
 }
 
