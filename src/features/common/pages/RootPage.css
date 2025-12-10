@@ -1,0 +1,11 @@
+.root-page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content {
+    flex-grow: 1;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 64px;
+}

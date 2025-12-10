@@ -1,0 +1,169 @@
+.acide{
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+    height: 1286px;
+    margin-left: 1088px;
+    margin-top: -712px;
+    background-color: blue;
+    gap: 24px;
+}
+.acideDonation{
+    display: flex;
+    align-items: start;
+    width: 326px;
+    height: 82px;
+    border-radius: 8px;
+    background-color: #1A1D1F;
+}
+
+.acideDonation img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.acideDonation p{
+    display: flex;
+    align-items: center;
+    width: 158px;
+    height: 24px;
+    margin-top: 18px;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.acideDonation h6{
+    display: block;
+    align-items: center;
+    width: 221px;
+    height: 21px;
+    margin-top: 43px;
+    margin-left: -158px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #6F767E;
+}
+.acideDonation button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41px;
+    height: 16px;
+    margin-left: -50px;
+    margin-top: 20px;
+    background: #1C82E0;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.topCourses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 326px;
+    height: 470px;
+    border-radius: 8px;
+    background-color: #1A1D1F;
+}
+.topCourses header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 326px;
+    height: 24px;
+    margin-top: 16px;
+    background-color: red;
+}
+
+.header h6{
+    width: 101px;
+    height: 23px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.header a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 94px;
+    height: 24px;
+    color: #6C6F70;
+    gap: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    &:active{
+        color: white;
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 310px;
+    height: 395px;
+    gap: 12px;
+    background-color: red;
+}
+
+.coursesCard1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 294px;
+    height: 106px;
+    background-color: blue;
+}
+.cardImg img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topCoursesAbout{
+    display: flex;
+    width: 196px;
+    height: 78px;
+    background-color: red;
+}
+
+.topCoursesAbout p{
+    display: flex;
+    margin-top: 0px;
+    width: 204px;
+    height: 42px;
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.ratingAndViews{
+    width: 60px;
+    height: 45px;
+    margin-left:-204px;
+    margin-top: 42px;
+    background-color: #1C82E0;
+}
+

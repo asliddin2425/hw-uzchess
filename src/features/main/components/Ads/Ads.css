@@ -1,0 +1,40 @@
+.ads{
+    display: flex;
+    position: relative;
+    width: 676px;
+    height: 88px;
+    margin-left: 382px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.ads div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 8px;
+    width: 261px;
+    height: 88px;
+    left: 415px;
+    background-color: #0481B9;
+}
+.ads img{
+    border-radius: 8px;
+}
+.ads button{
+    width: 102px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #0A2041;
+    border: #1D3150;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover{
+        transform: scale(95%);
+    }
+}

@@ -1,0 +1,41 @@
+.acide{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 326px;
+    height: 686px;
+    margin-left: 1082px;
+    margin-top: -1590px;
+}
+
+.top-books{
+    width: 326px;
+    height: 470px;
+    background-color: #1A1D1F;
+    border-radius: 8px;
+}
+.book-card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 294px;
+    height: 80px;
+    border: 1px solid #1F272A;
+}
+.book-card h6{
+    width: 200px;
+    height: 40px;
+    margin-top: -80px;
+    margin-left: 70px;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.book-card p{
+    width: 94px;
+    height: 20px;
+    margin-left: 70px;
+    margin-top: -30px;
+    font-size: 14px;
+    color: rgb(255, 255, 255, 72%);
+    font-family: sans-serif;
+}

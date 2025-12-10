@@ -1,0 +1,173 @@
+body{
+    background-color: black;
+}
+.cardList{
+    width: 676px;
+    height: 217px;
+    background-color: #1A1D1F;
+    margin-top: 20px;
+    margin-left: 382px;
+    border-radius: 12px;
+    user-select: none;
+    }
+.cardList img{
+    margin: 20px;
+    position: relative;
+}
+
+
+.cardAbout h6{
+    user-select: none;
+    color: #F7F9FA;
+    font-size: 18px;
+    font-family: sans-serif;
+    &:active {
+        cursor: pointer;
+        color: #1C92E0;
+    }
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 111px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: -38px;
+}
+.price p{
+    width: 82px;
+    height: 17px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #A7AAAB;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.price h5{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 111px;
+    height: 23px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #82CC27;
+}
+.cardAbout{
+    width: 441px;
+    height: 107px;
+    margin-left: 168px;
+    margin-top: -243px;
+}
+
+.savat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 198px;
+    height: 40px;
+    background: #1C92E0;
+    margin-left: 168px;
+    margin-top: 30px;
+    border-radius: 8px;
+
+}
+
+.savat img{
+    width: 20px;
+    height: 20px;
+    margin-left: 34px;
+}
+.savat p{
+    width: 100px;
+    height: 21px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 0px;
+}
+
+.boxIcons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 352px;
+    height: 24px;
+    margin-left: 0px;
+    margin-top: 28px;
+    user-select: none;
+}
+
+.icon1 {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 24px;
+    margin: 0px 0px;
+}
+
+.boxIcons img{
+    margin-left: 0px;
+}
+.boxIcons p{
+    width: max-content;
+    margin-left: -12px;
+}
+
+.icon2 {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 24px;
+    margin: 0px 10px;
+}
+
+.icon3 {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 24px;
+    margin: 0px;
+}
+
+.boxIcons p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 60%);
+    user-select: none;
+}
+
+.divider {
+    width: 1px;
+    height: 20px;
+    background-color: #3D4549;
+    margin-left: -5px;
+}
+.like{
+    width: 24px;
+    height: 24px;
+    margin-left: 632px;
+    margin-top: -30px;
+}
+
+.like img{
+    width: 19px;
+    height: 18px;
+    margin-left: 2px;
+    margin-top: 3px;
+
+
+}
+
+.emptyBox{
+    margin-top: 2480px;
+    margin-left: 499px;
+
+}

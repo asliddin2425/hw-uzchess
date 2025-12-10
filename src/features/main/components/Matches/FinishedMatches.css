@@ -1,0 +1,122 @@
+.match-list{
+    display: flex;
+    flex-direction: column;
+    width: 676px;
+    height: 466px;
+    margin-left: 382px;
+    margin-top: -570px;
+    border-radius: 8px;
+    border: 1px solid #1F272A;
+    background-color: #1A1D1F;
+}
+
+.header-match{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 676px;
+    height: 62px;
+}
+.header-match h4{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.header-match p{
+    display: flex;
+    align-items: center;
+    width: 98px;
+    height: 24px;
+    gap: 4px;
+    user-select: none;
+    cursor: pointer;
+    color: #9DA1A3;
+}
+.header-match img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+}
+.table{
+    width: 676px;
+    height: 400px;
+}
+.table-head{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 676px;
+    height: 36px;
+    background-color: #272B30;
+    color: #9D9FA1;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.table-head th{
+        font-size: 12px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #9D9FA1;
+
+}
+
+.gamers{
+    width: 81px;
+    height: 12px;
+    margin-left: 40px;
+}
+.result{
+    width: 46px;
+    height: 12px;
+    margin-left: 190px;
+}
+.typeofGame{
+    width: 67px;
+    height: 12px;
+    margin-left: 34px;
+}
+
+.chess-move{
+    width: 70px;
+    height: 12px;
+    margin-left: 24px;
+}
+.date{
+    width: 35px;
+    height: 12px;
+    margin-left: 68px;
+}
+
+.MatchMain{
+    display: flex;
+    width: 676px;
+    height: 72px;
+    background-color: red;
+}
+
+.gamerName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 170px;
+    height: 21px;
+    background-color: blue;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.gamerName p{
+    display: flex;
+    align-items: center;
+    width: 152px;
+    height: 21px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 4px;
+    color: white;
+}
+
+
