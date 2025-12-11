@@ -1,0 +1,135 @@
+.main-card{
+    width: 1026px;
+    height: 662px;
+    margin-left: 382px;
+    margin-top: -103px;
+    background-color: #1A1D1F;
+    border-radius: 12px;
+    border: 1px solid #1F272A;
+}
+.card-head{
+    display: flex;
+    align-items: center;
+    width: 1026px;
+    height: 44px;
+    color: #9D9FA1;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+    background: #272B30;
+}
+.tr{
+    width: 13px;
+    height: 12px;
+    margin-left: 58px;
+}
+
+.name{
+    width: 85px;
+    height: 12px;
+    margin-left: 60px;
+}
+.type-of-game{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    width: 88px;
+    height: 24px;
+    margin-left: 373px;
+    gap: 4px;
+}
+.rapid-head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    width: 66px;
+    height: 24px;
+    margin-left: 90px;
+    gap: 4px;
+}
+.blitz-head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 61px;
+    height: 24px;
+    gap: 4px;
+    margin-left: 98px;
+}
+.card-body{
+    width: 1026px;
+    height: 550px;
+}
+.body-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1026px;
+    height: 54px;
+    background-color: #1A1D1F;
+    border: 1px solid #272B30;
+    &:hover{
+        background-color: #15181A;
+        cursor: pointer;
+    }
+}
+.person-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 190px;
+    height: 24px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #F7F9FA;
+    margin-left: 70px;
+}
+
+.score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71px;
+    height: 22px;
+    margin-left: 290px;
+}
+.score h6{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.score p{
+    color: #82CC27;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.rapid-body{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 107px;
+}
+.blitz-body{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 129px;
+}
+
+.serial-number{
+    width: 13px;
+    height: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+

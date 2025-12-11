@@ -1,15 +1,15 @@
 .filter{
     position: absolute;
-    width: 339px;
-    height: 489px;
+    width: 334px;
+    height: 256px;
     margin-left: 31px;
-    margin-top: -774px;
+    margin-top: 24px;
     gap: 24px;
     border-radius: 8px;
     background-color: #1A1D1F;
 }
 
-.header{
+.header-filter{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,14 +18,14 @@
     margin: 20px;
 }
 
-.header h5{
+.header-filter h5{
     user-select: none;
     font-size: 18px;
     font-family: sans-serif;
     font-weight: 500;
     color: #FCFCFC;
 }
-.header p{
+.header-filter p{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 400;
@@ -80,14 +80,14 @@
     z-index: 11;
 }
 .section1 h6{
-    width: 98px;
+    width: max-content;
     height: 12px;    
     position: absolute;
     top: -25px;
     font-size: 12px;
     font-family: sans-serif;
     font-weight: 500;
-    color: white;
+    color: #9FA1A2;
 }
 
 .filter-select{

@@ -1,19 +1,24 @@
-.main{
+#main{
     display: grid;
     grid-template-columns: auto auto auto ;
     width: 1026px;
     height: 1076px;
-
-    margin: 0px 34px;
     user-select: none;
+    margin-left: 34px;
+    margin-top: -610px;
+    row-gap: 22px;
+    column-gap: 22px;
+
 }
 .box{
     width: 326px;
     height: 251px;
     border-radius: 8px;
     background-color: #1A1D1F;
-    border: 1px solid #1C92E0;
-    margin: 0px 8px;
+    &:hover{
+        cursor: pointer;
+        transform: scale(95%);
+    }
 }
 
 .box img{

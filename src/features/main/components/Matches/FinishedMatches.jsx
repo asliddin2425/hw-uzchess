@@ -1,7 +1,6 @@
 import './FinishedMatches.css'
 import Arrow from '../../../../assets/icons/vektor.svg'
-import  Trophy1 from '../../../../assets/icons/trophy-icon.svg'
-import ImgGame from '../../../../assets/images/Games.svg'
+import { FinishedMatchesData } from '../../../../Api/Api'
 export function FinishedMatches() { 
     return (
         <>
@@ -33,10 +32,39 @@ export function MatchesList() {
                     </thead>
                     <tbody>
                         <div className='MatchMain'>
-                            <div className='gamerName'>
-                                <img src={ Trophy1} alt="icon" />
-                                <p>Shohrukh Bakhtiyarov</p>
+                            {FinishedMatchesData.map(item => (
+                    <div className="players_record">
+                        <div className="kubok">
+                            <div className="level_kubok">
+                                <div className="around">
+                                    <div className="back">
+                                        <img src={item.gold} alt="svg"/>
+                                        <p>{item.playName}</p>
+                                    </div>
+                                    <p>{item.levlrayt}</p>
+                                </div>
+                                <p>{item.nums}</p>
                             </div>
+                            <div className="level_kubok">
+                                <div className="around">
+                                    <div className="back">
+                                        <img src={item.gold2} alt="svg"/>
+                                        <p>{item.playName2}</p>
+                                    </div>
+                                    <p>{item.levlrayt2}</p>
+                                </div>
+                                <p>{item.nums2}</p>
+                            </div>
+                        </div>
+                        <div className="play_month">
+                            <div className="around2">
+                                <img src={item.icons} alt="svg"/>
+                                <p>{item.move}</p>
+                            </div>
+                            <p>{item.month}</p>
+                        </div>
+                    </div>
+                    ))}
                         </div>
                     </tbody>
                 </table>

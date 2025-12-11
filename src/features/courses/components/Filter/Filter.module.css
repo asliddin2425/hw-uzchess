@@ -1,0 +1,9 @@
+.filterCard{
+    width: 334px;
+    height: 489px;
+    gap: 24px;
+    border-radius: 8px;
+    background-color: #1A1D1F;
+    margin-left: 31px;
+    margin-top: 24px;
+}

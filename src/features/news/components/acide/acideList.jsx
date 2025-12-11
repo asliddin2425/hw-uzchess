@@ -1,34 +1,43 @@
 import './acideList.css'
-import BannerImg from './assets/Banners.svg'
+import BannerImg from '../../../../assets/images/banner.svg'
+import { DataAcide } from '../../../../Api/Api'
+import { Link } from 'react-router-dom'
 
 
 
 
-
-export function AcideCard({ DataAcide}) { 
+export function AcideCard() { 
     return (
         <>
-            <div>
-                {DataAcide.map(item => (<AcideList key={item.id} {...item} />))}
-            </div>
-            
+            <AcideList/>
         </>
     )
 }
 
-export function AcideList({ img, title, author }) { 
+export function AcideList() { 
     return (
         <>
-            <div className='acide'>
-                <img src={BannerImg} alt="icon" />
+
+                <div className='acide'>
+                    <img src={BannerImg} alt="icon" />
                 <div className='top-books'>
-                    <div className='book-card'>
-                        <img src={img} alt="img" />
-                        <h6>{title}</h6>
-                        <p>{ author}</p>
+                    <header className='topBooksHeader'>
+                        <p>Top kitoblar</p>
+                        <Link to='/library'>Barchasi
+                            <img src='./src/assets/icons/vektor.svg' alt="" />
+                        </Link>
+                    </header>
+                        <div div id='book-card'>
+                            {DataAcide.map(item => (
+                                <div className='book-item'>
+                                    <img src={item.img} alt="img" />
+                                    <h6>{item.title}</h6>
+                                    <p>{ item.author}</p>
+                                </div>
+                            ))}
+                        </div> 
                     </div>
                 </div>
-            </div>
         </>
     )
 }

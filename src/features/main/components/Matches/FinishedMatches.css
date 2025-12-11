@@ -92,31 +92,88 @@
 
 .MatchMain{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 676px;
     height: 72px;
-    background-color: red;
+    background-color: #1A1D1F;
+    
 }
 
-.gamerName{
+
+
+.players_record {
+    user-select: none;
+    width: 676px;
+    height: 72px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 170px;
-    height: 21px;
-    background-color: blue;
-    margin-left: 20px;
-    margin-top: 15px;
+    border-top: 2px solid #1F272A;
+        &:hover {
+                background-color: #13181C;
+            }
 }
-.gamerName p{
+
+.kubok {
+    padding-left: 20px;
     display: flex;
-    align-items: center;
-    width: 152px;
-    height: 21px;
-    font-size: 14px;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-left: 4px;
-    color: white;
+    flex-direction: column;
 }
 
+.level_kubok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FCFCFC;
+    font-family: sans-serif;
+}
 
+.around {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+
+
+    & p {
+        font-family: sans-serif;
+        color: #6F767E;
+    }
+}
+
+.back {
+    display: flex;
+    gap: 4px;
+
+    & p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FCFCFC;
+    }
+}
+
+.play_month {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 265px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FCFCFC;
+    font-family: sans-serif;
+}
+
+.around2 {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+
+    & img {
+        width: 55px;
+        height: 23px;
+        filter: drop-shadow(0 0 25px yellow);
+    }
+}

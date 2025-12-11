@@ -1,6 +1,6 @@
-import './News.css';
-import Arrow from '../../../assets/Arrow.svg'
-import NewsImg from '../../../assets/newsImg1.svg'
+import { MainNewsData } from '../../../../Api/Api';
+import styles from './News.module.css';
+import { Link } from 'react-router-dom'; 
 export function News() { 
     return (
         <>
@@ -11,23 +11,30 @@ export function News() {
 
 export function NewsList() {
     return (
-        <div className='news'>
-            <div className='news-header'>
+    <>
+        <div className={styles.news}>
+            <div className={styles.newsHeader}>
                 <h6>Yangiliklar</h6>
-                <p>Barchasi
-                    <img src={ Arrow} alt="" />
-                </p>
+                <Link to='/news'>Barchasi
+                    <img src='./src/assets/icons/vektor.svg' alt="icon" />
+                </Link>
             </div>  
-            <div className='news-main'>
-                <div className='news-item'>
-                    <img src={NewsImg} alt="img" />
-                    <div className='news-about'>
-                        <p>Sentabr 7, 2022</p>
-                        <h4>Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi</h4>
-                        <h6>O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘alaba qozonib, shaxmat bo‘yicha jahon reyting...</h6>
+            <div className={styles.newsMain}>
+                {MainNewsData.map(item => (
+                <div className={styles.newsItem}>
+                    <img src={item.img} alt="img" />
+                    <div className={styles.newsAbout}>
+                        <p>{ item.date}</p>
+                        <div className={styles.newsText}>
+                        <h5>{ item.title}</h5>
+                        <h6>{item.newsDeteils }.</h6>
+                        </div>
                     </div>
                 </div>
+               ))}
             </div>
         </div>
+            <button className={styles.more}>Ko'proq</button>
+    </>
     )
 }

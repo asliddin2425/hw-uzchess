@@ -1,0 +1,35 @@
+.rating{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 326px;
+    height: 100px;
+    margin-top: 12px;
+    margin-left: 32px;
+    border-radius: 8px;
+    border: 1px solid #232627;
+    background-color: #1A1D1F;
+}
+.rating div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 183px;
+    height: 44px;
+
+}
+.rating p{
+    width: 127px;
+    height: 42px;
+    font-size: 32px;
+    margin-left: -50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.rating img{
+    margin-left: -50px;
+    width: 144px;
+    height: 144px;
+}
