@@ -3,7 +3,7 @@ import Search from '../../../../assets/icons/search.svg'
 
 export function SearchBar({ handleSearchChange }) {
     return (
-        <div className="search">
+        <div className="search" id='searching'>
             <img src={Search} alt="search" />
             <input
                 type="search"

@@ -83,7 +83,7 @@ const Language = styled.p`
     font-weight: 500;
     color: #FFFFFF;
     user-select: none;
-    // background-color: #1A1D1F;
+    background-color: #1A1D1F;
     border: none;
     cursor: pointer;
 `;
@@ -126,6 +126,7 @@ const PersonName = styled.p`
     font-family: sans-serif;
     font-weight: 500;
     color: white;
+    text-decoration: none;
 `;
 
 import { NavLink } from "react-router-dom";
@@ -151,11 +152,8 @@ export const StyledLink = styled(NavLink)`
     width: 100%;
     height: 2px;      
     background: #1C92E0;
-    border-radius: 2px;
+    border-radius: 2px;}
 `;
-
-
-
 
 
 
@@ -192,7 +190,9 @@ export function Header() {
                 <Divider></Divider>
                 <PersonAbout>
                     <PersonName>Jasurbek Pulatov</PersonName>
-                    <img src={Person} alt="personImg" />
+                    <Link to={'profile'}>
+                        <img src={Person} alt="personImg" />
+                    </Link>
                 </PersonAbout>
             </HeaderIcons>
         </StyledHeader>
@@ -200,26 +200,6 @@ export function Header() {
 }
 
 
-// import styles from './Header.module.css';
-// import {Link, NavLink} from 'react-router-dom';
 
-// export default function Header() {
-//     return (
-//         <header className={styles.header}>
-//             <nav>
-//                 <ul>
-//                     <li><NavLink end={true} to={'/'} style={({isActive}) => {
-//                         return {color: isActive ? 'teal' : 'white'}
-//                     }}>Main</NavLink></li>
-//                     <li><NavLink end={true} to={'/news'} style={({isActive}) => {
-//                         return {color: isActive ? 'teal' : 'white'}
-//                     }}>News</NavLink></li>
-//                     <li><NavLink end={true} to={'/news/detail'} style={({isActive}) => {
-//                         return {color: isActive ? 'teal' : 'white'}
-//                     }}>NewsDetail</NavLink></li>
-//                 </ul>
-//             </nav>
-//         </header>
-//     )
-// }
+
 

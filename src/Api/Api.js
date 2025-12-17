@@ -60,7 +60,7 @@ export const MainTopCoursesData = [
         rating: 3.5,
         viewCount: 5756,
     },
-        
+
     {
         id: 3,
         img: TopCoursesImg3,
@@ -68,7 +68,7 @@ export const MainTopCoursesData = [
         rating: 3.5,
         viewCount: 5756,
     },
-                {
+    {
         id: 1,
         img: TopCoursesImg4,
         title: "Asosiy taktikalar",
@@ -78,82 +78,82 @@ export const MainTopCoursesData = [
 ]
 
 
-export const FinishedMatchesData= [
+export const FinishedMatchesData = [
     {
-        id:1,
+        id: 1,
         gold: GoldTrophy,
-        playName:"Shohrukh Bakhtiyarov",
-        levlrayt:"(2861)",
-        nums:2,
+        playName: "Shohrukh Bakhtiyarov",
+        levlrayt: "(2861)",
+        nums: 2,
         gold2: SilverTrophy,
-        playName2:"Nikaru Hakamura",
-        levlrayt2:"(2768)",
-        nums2:"0",
+        playName2: "Nikaru Hakamura",
+        levlrayt2: "(2768)",
+        nums2: "0",
         icons: RabbitIcon,
-        move:"56",
-        month:"12 Dekabr"
+        move: "56",
+        month: "12 Dekabr"
     },
     {
-        id:2,
+        id: 2,
         gold: GoldTrophy,
-        playName:"Abdusattorov Nodirbek",
-        levlrayt:"(2604)",
-        nums:1,
+        playName: "Abdusattorov Nodirbek",
+        levlrayt: "(2604)",
+        nums: 1,
         gold2: SilverTrophy,
-        playName2:"Ding Liren",
-        levlrayt2:"(2312)",
-        nums2:"0",
+        playName2: "Ding Liren",
+        levlrayt2: "(2312)",
+        nums2: "0",
         icons: BulletIcon,
-        move:"20",
-        month:"21 Noyabr"
+        move: "20",
+        month: "21 Noyabr"
 
     },
     {
-        id:3,
+        id: 3,
         gold: GoldTrophy,
-        playName:"Aronian Levon",
-        levlrayt:"(2402)",
-        nums:"0",
+        playName: "Aronian Levon",
+        levlrayt: "(2402)",
+        nums: "0",
         gold2: SilverTrophy,
-        playName2:"Sindarov Javokhir",
-        levlrayt2:"(2641)",
-        nums2:2,
+        playName2: "Sindarov Javokhir",
+        levlrayt2: "(2641)",
+        nums2: 2,
         icons: BlitzIcon,
-        move:"19",
-        month:"19 Oktabr"
-    },{
-        id:4,
-        gold:GoldTrophy,
-        playName:"Caruana Fabiano",
-        levlrayt:"(2402)",
-        nums:1,
+        move: "19",
+        month: "19 Oktabr"
+    }, {
+        id: 4,
+        gold: GoldTrophy,
+        playName: "Caruana Fabiano",
+        levlrayt: "(2402)",
+        nums: 1,
         gold2: SilverTrophy,
-        playName2:"Rapport Richard",
-        levlrayt2:"(2641)",
-        nums2:1,
+        playName2: "Rapport Richard",
+        levlrayt2: "(2641)",
+        nums2: 1,
         icons: BlitzIcon,
-        move:"56",
-        month:"2 Sentabr"
+        move: "56",
+        month: "2 Sentabr"
     },
     {
-        id:5,
-        gold:GoldTrophy,
-        playName:"Yakubboev Nodirbek",
-        levlrayt:"(2402)",
-        nums:4,
+        id: 5,
+        gold: GoldTrophy,
+        playName: "Yakubboev Nodirbek",
+        levlrayt: "(2402)",
+        nums: 4,
         gold2: SilverTrophy,
-        playName2:"Gelfand Boris",
-        levlrayt2:"(2641)",
-        nums2:1,
+        playName2: "Gelfand Boris",
+        levlrayt2: "(2641)",
+        nums2: 1,
         icons: BulletIcon,
-        move:"56",
-        month:"2 Sentabr"
+        move: "56",
+        month: "2 Sentabr"
     },
 ]
 
 
 export const MainRatingPlayers = [
-    { 
+    {
         id: 1,
         order: 1.,
         playerName: "Magnus Carlsen",
@@ -164,7 +164,7 @@ export const MainRatingPlayers = [
     },
 
 
-    { 
+    {
         id: 2,
         order: 2,
         playerName: "Nikaru hakamura",
@@ -174,7 +174,7 @@ export const MainRatingPlayers = [
         ratingDelta: "-11",
     },
 
-    { 
+    {
         id: 3,
         order: 3,
         playerName: "Abdusattorov Nodirbek",
@@ -183,8 +183,8 @@ export const MainRatingPlayers = [
         points: 2842,
         ratingDelta: "+18",
     },
-        
-    { 
+
+    {
         id: 4,
         order: 4,
         playerName: "Magnus Carlsen",
@@ -193,7 +193,7 @@ export const MainRatingPlayers = [
         points: 2839,
         ratingDelta: "+41",
     },
-    { 
+    {
         id: 5,
         order: 5,
         playerName: "Yakubboev Nodirbek ",
@@ -256,7 +256,7 @@ export const RatingData = [
         blitzPoints: 2788,
     },
 
-        {
+    {
         id: 103,
         serialNumber: 5,
         personImg: Person3,
@@ -327,7 +327,7 @@ export const RatingData = [
         rapidPoints: 2829,
         blitzPoints: 2788
     },
-]    
+]
 
 
 
@@ -340,7 +340,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-    
+
     {
         id: 2,
         newsImg: NewsImg2,
@@ -349,7 +349,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 3,
         newsImg: NewsImg3,
         newsDate: "Sentabr 7, 2022",
@@ -357,7 +357,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 4,
         newsImg: NewsImg3,
         newsDate: "Sentabr 7, 2022",
@@ -365,7 +365,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 5,
         newsImg: NewsImg4,
         newsDate: "Sentabr 7, 2022",
@@ -373,7 +373,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 6,
         newsImg: NewsImg5,
         newsDate: "Sentabr 7, 2022",
@@ -381,7 +381,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 7,
         newsImg: NewsImg2,
         newsDate: "Sentabr 7, 2022",
@@ -389,7 +389,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 8,
         newsImg: NewsImg6,
         newsDate: "Sentabr 7, 2022",
@@ -397,15 +397,15 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 9,
-         newsImg: NewsImg3,
+        newsImg: NewsImg3,
         newsDate: "Sentabr 7, 2022",
         aboutNews: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 10,
         newsImg: NewsImg5,
         newsDate: "Sentabr 7, 2022",
@@ -413,7 +413,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 11,
         newsImg: NewsImg2,
         newsDate: "Sentabr 7, 2022",
@@ -421,7 +421,7 @@ export const NewsData = [
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
-        {
+    {
         id: 12,
         newsImg: NewsImg1,
         newsDate: "Sentabr 7, 2022",
@@ -459,7 +459,7 @@ export const DataAcide = [
         id: 4,
         img: Book4,
         title: "Mening esdaqolarlik o'yinlarim",
-        author:  "B.Fischer",
+        author: "B.Fischer",
     },
 ];
 
@@ -480,7 +480,7 @@ export const MainNewsData = [
         newsDeteils: "Rossiyalik grossmeyster va shaxmat bo‘yicha murabbiy Sergey Shipov O‘zbekiston terma jamoasining Hindistondagi shaxmat olimpiadasidagi...",
     },
 
-        {
+    {
         id: 3,
         img: MainNewsImg3,
         date: "Sentabr 7, 2022",
@@ -495,4 +495,52 @@ export const MainNewsData = [
         title: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
         newsDeteils: "Ikki davlat jamoalari o‘rtasidagi bahs 3:1 hisobida O‘zbekiston foydasiga hal bo‘ldi. Shu tariqa, hech qachon mag‘lubiyatga uchramagan respub...",
     },
+]
+
+import LevelIcon1 from '../assets/icons/Union.svg'
+import LevelIcon2 from '../assets/icons/Union2.svg'
+import LevelIcon3 from '../assets/icons/toj.svg'
+import CardImg1 from '../assets/images/profileCardImg1.png'
+import CardImg2 from '../assets/images/profileCardImg2.png'
+import CardImg3 from '../assets/images/profileCardImg3.png'
+import CardImg4 from '../assets/images/profileCardImg4.png'
+
+
+export const ProfileCardData = [
+    {
+        id: 1,
+        img: CardImg1,
+        levelIcon: LevelIcon1,
+        level: "Boshlangich",
+        author: "Robert Fisher",
+        lessons: " 5 ta dars"
+
+    },
+
+        {
+        id: 2,
+        img: CardImg2,
+        levelIcon: LevelIcon2,
+        level: "Havaskor",
+        author: "Javoxir Sindarov ",
+        lessons: " 12 ta dars"
+        },
+        
+    {
+        id: 3,
+        img: CardImg3,
+        levelIcon: LevelIcon3,
+        level: "Professional",
+        author: " Magnus Carlsen",
+        lessons: " 20 ta dars"
+    },
+    {
+        id: 4,
+        img: CardImg4,
+        levelIcon: LevelIcon1,
+        level: "Boshlangich",
+        author: "Robert Fisher",
+        lessons: " 12ta dars"
+
+    }
 ]

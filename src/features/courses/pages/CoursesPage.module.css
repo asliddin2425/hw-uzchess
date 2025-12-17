@@ -1,0 +1,7 @@
+.coursesPage{
+    display: flex;
+    flex-direction: column;    
+    /* justify-content: start;
+    align-items: start;
+    justify-items: start; */
+}

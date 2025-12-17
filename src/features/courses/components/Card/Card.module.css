@@ -1,14 +1,22 @@
 body{
     background-color: black;
 }
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 676px;
+    height: 876px;
+    margin-left: 382px;
+    margin-top: 0px;
+    gap: 24px;
+}
 .box{
     display: flex;
     width: 676px;
     height: 189px;
     background-color: #1A1D1F;
     border-radius: 8px;
-    margin-left: 387px;
-    margin-top: 20px;
     border: 1px solid #1C92E0;
 
 }
@@ -186,4 +194,5 @@ body{
 .emptyBox{
     margin-left: 499px;
     margin-top: 108px;
+    margin-bottom: 200px;
 }

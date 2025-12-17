@@ -1,15 +1,22 @@
 
 .banner{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 1082px;
-    margin-top: -700px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 .banner img{
-    position: absolute;
     border-radius: 8px;
+}
+.acide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 326px;
+    height: 298px;
+    margin-top: -620px;
+    margin-left: 1082px;
 }
 .acideDonation {
     display: flex;
@@ -18,8 +25,6 @@
     height: 82px;
     border-radius: 8px;
     background-color: #1A1D1F;
-    margin-left: 1082px;
-    margin-top: 24px;
 }
 .acideDonation img {
     margin-top: 20px;
