@@ -1,0 +1,25 @@
+.pageTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 326px;
+    height: 144px;
+    gap: 16px;
+    margin-left: 32px;
+    border-radius: 16px;
+    background-color: #1A1D1F;
+    border: 1px solid #1F272A;
+}
+.pageTitle img{
+    width: 88px;
+    height: 88px;
+}
+.pageTitle p{
+    width: 170px;
+    height: 72px; 
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}

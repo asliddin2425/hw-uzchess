@@ -1,0 +1,41 @@
+.filterBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 326px;
+    height: 316px;
+    margin-top: 24px;
+    margin-left: 32px;
+    border-radius: 16px;
+    gap: 6px;
+    background-color: #1A1D1F;
+    border: 1px solid #1F272A;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 286px;
+    height: 60px;
+    border-radius: 12px;
+    margin-left: 20px;
+    background-color: #18131A;
+    border: 1px solid #1C92E0;
+    cursor: pointer;
+    & img{
+        margin-left: 20px;
+    }
+    & a{
+        user-select: none;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: sans-serif;
+        margin-left: 10px;
+        text-decoration: none;
+        color: #9DA0A1;
+        &:active{
+            color: white;
+        }
+    }
+}

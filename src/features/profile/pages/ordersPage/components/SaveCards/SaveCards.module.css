@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1026px;
+    height: 408px;
+    gap: 24px;
+    margin-left: 382px;
+    margin-top: -486px;
+    margin-bottom: 50px;
+    overflow-y: auto;
+    background-color: cadetblue;
+}
+
+.card{
+    display: flex;
+    align-items: start;
+    width: 501px;
+    height: 192px;
+    border-radius: 12px;
+    border: 1px solid #1F272A;
+    background-color: #1A1D1F;
+}
+.img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.courseId{
+    width: 150px;
+    height: 26px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 16px;
+    background-color: teal;
+}
+.status{
+    width: 136px;
+    height: 28px;
+    background: #222B20;
+    margin-top: 52px;
+    margin-left: -150px;
+}

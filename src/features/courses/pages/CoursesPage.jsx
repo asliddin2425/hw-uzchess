@@ -13,7 +13,6 @@ export function CoursesPage() {
             <Filter />
             <Acide/>
             <Card />
-            
         </div>
 
 

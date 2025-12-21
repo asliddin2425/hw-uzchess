@@ -1,4 +1,5 @@
 import './FinishedMatches.css'
+import { Link } from 'react-router-dom'
 import Arrow from '../../../../assets/icons/vektor.svg'
 import { FinishedMatchesData } from '../../../../Api/Api'
 export function FinishedMatches() { 
@@ -15,9 +16,9 @@ export function MatchesList() {
         <div className="match-list">
             <div className='header-match'>
                 <h4>Yakunlangan o‘yinlar</h4>
-                <p>Barchasi
+                <Link to={'games'}>Barchasi
                     <img src={ Arrow} alt="icon" />
-                </p>
+                </Link>
             </div>
             <div className='table-box'>
                 <table className='table'>

@@ -7,6 +7,8 @@ import { Data } from "./Data/data";
 import likeImg from '../../../../assets/icons/like.svg';
 import EmptyImg from "../../../../assets/images/empty.svg";
 import styles from './Card.module.css'
+import { Link } from 'react-router-dom';
+
 export function Card() {
     const [searchTerm, setSearchTerm] = useState("");
     const handleSearchChange = (value) => {
@@ -44,7 +46,7 @@ export function CardItem({Data}){
             </div>
 
             <div className={styles.boxTitle}>
-                <h4>{item.title}</h4>
+                <Link to={'/courses/single'}>{item.title}</Link>
                 <p>{item.user}</p>
             </div>
 

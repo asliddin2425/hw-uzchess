@@ -24,7 +24,8 @@
     font-weight: 500;
     color: white;
 }
-.header-match p{
+.header-match a{
+    text-decoration: none;
     display: flex;
     align-items: center;
     width: 98px;
@@ -97,7 +98,6 @@
     width: 676px;
     height: 72px;
     background-color: #1A1D1F;
-    background-color: red;
 }
 
 

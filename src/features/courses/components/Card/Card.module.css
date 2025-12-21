@@ -35,7 +35,8 @@ body{
     margin: 24px -5px;
 
 }
-.boxTitle h4{
+.boxTitle a{
+    text-decoration: none;
     width: 427px;
     height: max-content;
     color: white;
@@ -44,6 +45,10 @@ body{
     font-family: sans-serif;
     font-weight: bold;
     user-select: none;
+    &:hover{
+        cursor: pointer;
+        color: #1C92E0;
+    }
 }
 
 .boxTitle p{
