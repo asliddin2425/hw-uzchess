@@ -1,0 +1,402 @@
+.heroSection{
+    display: flex;
+    width: 1376px;
+    height: 194px;
+    margin-left: 32px;
+    border-radius: 8px;
+    border: 1px solid #1F262B;
+}
+.backImg{
+    position: relative;
+    display: flex;
+    width: 1376px;
+    height: 194px;
+    filter: blur(15px);
+}
+.coursesAbout{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 541px;
+    height: 80px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.title{
+    width: 541px;
+    height: 41px;
+    color: white;
+    font-size: 32px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    user-select: none;
+}
+.pricesInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 292px;
+    height: 30px;
+    gap: 8px;
+    margin-top: -12px;
+}
+.newPrice{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.oldPrice{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #A4ACAF;
+    text-decoration: line-through red;
+}
+.categories{
+    user-select: none;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    width: 351px;
+    height: 24px;
+    margin-left: 32px;
+    margin-top: 138px;
+}
+.level{
+    display: flex;
+    align-items: center;
+    width: 118px;
+    height: 24px;
+    gap: 5px;
+    color: #A4ACAF;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    &:hover {
+        transform: scale(95%);
+    }
+}
+.category{
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 24px;
+    color: #A4ACAF;
+    font-family: sans-serif;
+    font-size: 14px;
+    gap: 4px;
+    font-weight: 400;
+    &:hover {
+        transform: scale(95%);
+   }
+}
+.lesson{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #A4ACAF;
+    font-family: sans-serif;
+    font-size: 14px;
+    gap: 4px;
+    font-weight: 400;
+    &:hover{
+        transform: scale(95%);
+    }
+}
+
+.rating{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 292px;
+    height: 28px;
+    margin-top: 32px;
+    margin-left: 1038px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 156px;
+    height: 28px;
+    & img{
+        width: 26px;
+        height: 26px;
+    } 
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    width: 119px;
+    height: 24px;
+    & h5{
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 500; 
+    }
+    & p{
+        color: #6D7274;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 382px;
+    height: 50px;
+    gap: 16px;
+    margin-top: 112px;
+    margin-left: 962px;
+}
+
+.buyCourse{
+    width: 250px;
+    height: 50px;
+    background-color: #1C92E0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #646C6F;
+    background-color: #252F32;
+}
+
+.share{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #646C6F;
+    background-color: #252F32;
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1026px;
+    min-height: 445px;
+    margin-top: 66px;
+    margin-left: 32px;
+    border-radius: 8px;
+    border:  1px solid #1F272A;
+    background-color: #1A1D1F;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 986px;
+    height: 36px;
+    margin-top: 14px;
+    margin-left: 20px;
+    & p{
+        font-size: 24px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 239px;
+    margin-top: 16px;
+    background-color:  #212426;
+}
+.card1{
+    width: 312px;
+    height: 195px;
+    margin-top: 22px;
+    margin-left: 20px;
+    margin-bottom: 11px;
+    border-radius: 8px;
+    & p{
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+}
+.cardItems{
+    width: 1026px;
+    height: 118px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1026px;
+    height: 51px;
+    border-bottom: 1px solid #282C2E;
+    & p{
+        color: white;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 20px;
+        user-select: none;
+        cursor: pointer;
+    }
+    & img{
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.commentsBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1026px;
+    min-height: 818px;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.commentHeader{
+    display: flex;
+    align-items: center;
+    width: 1026px;
+    height: 42px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:white;
+}
+.commentMain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1026px;
+    min-height: 699px;
+    background-color: #1A1D1F;
+}
+
+.commentCard{
+    display: flex;
+    flex-direction: column;
+    width: 1006px;
+    height: 151px;
+    margin-left: 20px;
+    border-bottom: 1px solid #303335;
+}
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 986px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.userInfoCard{
+    display: flex;
+    align-items: center;
+    width: 393px;
+    height: 50px;
+}
+.userName{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 337px;
+    height: 50px;
+    & p{
+        display: flex;
+        justify-content: start;
+        width: 217px;
+        height: 25px;
+        color: white;
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    & h6{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 337px;
+        height: 23px;
+        color: #9DA1A3;
+        font-size: 18px;
+        margin-top: -14px;
+        font-family: sans-serif;
+        font-weight: 400;
+        & img{
+            width: 20px;
+            height: 20px;
+            
+        }
+    }
+}
+
+.comment{
+    width: 986px;
+    height: 72px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 0px;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.allComments{
+    width: 184px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 421px;
+    margin-top: 24px;
+    background-color: #282A2C;
+}

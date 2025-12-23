@@ -13,6 +13,7 @@ import { GamesPage } from './src/features/main/pages/games/GamesPage'
 import { GeneralSettingsPages } from './src/features/profile/pages/generalSettingsPage/GeneralSettingsPage'
 import { SavesPage } from './src/features/profile/pages/savesPage/SavesPage'
 import { Filter } from './src/features/profile/components/Filter/Filter'
+import { CoursesSingle } from './src/features/courses/components/CoursesSingle'
 
 const router = createBrowserRouter([
     {
@@ -30,7 +31,8 @@ const router = createBrowserRouter([
             { path: 'games', element: <GamesPage /> },
             { path: 'orders', element: <OrdersPage /> },
             { path: 'settings', element: <GeneralSettingsPages /> },
-            {path: 'saves', element: <SavesPage/>}
+            { path: 'saves', element: <SavesPage /> },
+            {path: 'courses/single', element: <CoursesSingle/>}
 
         ]
     }
