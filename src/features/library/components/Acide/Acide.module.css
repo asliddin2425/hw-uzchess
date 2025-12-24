@@ -1,0 +1,75 @@
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.banner img{
+    border-radius: 8px;
+}
+.acide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 326px;
+    height: 298px;
+    margin-top: -620px;
+    margin-bottom: 700px;
+    margin-left: 1082px;
+}
+.acideDonation {
+    display: flex;
+    align-items: start;
+    width: 326px;
+    height: 82px;
+    border-radius: 8px;
+    background-color: #1A1D1F;
+}
+.acideDonation img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.acideDonation p {
+    display: flex;
+    align-items: center;
+    width: 158px;
+    height: 24px;
+    margin-top: 18px;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.acideDonation h6 {
+    display: block;
+    align-items: center;
+    width: 221px;
+    height: 21px;
+    margin-top: 43px;
+    margin-left: -158px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #6F767E;
+}
+
+.acideDonation button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41px;
+    height: 16px;
+    margin-left: -50px;
+    margin-top: 20px;
+    background: #1C82E0;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}

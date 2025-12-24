@@ -37,7 +37,10 @@
             color: #1C92E0;
     }
 }
-.box h6{
+.box a{
+    text-decoration: none;
+    text-align: start;
+    display: flex;
     width: 302px;
     height: 36px;
     font-size: 14px;

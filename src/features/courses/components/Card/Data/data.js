@@ -25,7 +25,7 @@ export const Data = [
     {
         img: Img2,
         ratingNum: "5.0",
-        Lang: "O'z",
+        lang: "O'z",
         title: "Shoxga hujum qilish",
         user: "Andre Konfutsiy",
         oldPrice: false,
@@ -40,7 +40,7 @@ export const Data = [
     {
         img: Img3,
         ratingNum: 4.5,
-        Lang: "PY",
+        lang: "PY",
         title: "Mot qilish",
         user: "David Harikon",
         oldPrice: "160 000.00 uzs",
@@ -55,7 +55,7 @@ export const Data = [
     {
         img: Img4,
         ratingNum: "5.0",
-        Lang: "O'z",
+        lang: "O'z",
         title: "Asosiy taktikalar",
         user: "Paul  Heckler",
         oldPrice: false,

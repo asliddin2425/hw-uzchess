@@ -2,6 +2,7 @@ import { useState } from "react";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { MainData } from "./MainData/MainData";
 import { CardList } from "./CardList";
+import styles from './Card.module.css'
 import EmptyImg from "../../../../assets/images/empty.svg";
 
 export function Card() {
@@ -20,7 +21,7 @@ export function Card() {
       <SearchBar handleSearchChange={handleSearchChange} />
 
       {filteredData.length === 0 ? (
-        <div className="empty-box">
+        <div className={styles.emptyBox}>
           <img src={EmptyImg} alt="not found" className="empty-img" />
         </div>
       ) : (

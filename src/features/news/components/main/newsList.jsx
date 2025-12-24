@@ -1,5 +1,6 @@
 import './newsList.css';
 import { NewsData } from '../../../../Api/Api';
+import { Link } from 'react-router-dom';
 
 
 export function NewsList() { 
@@ -10,7 +11,7 @@ export function NewsList() {
                     key={item.id} 
                     newsImg={item.newsImg}
                     newsDate={item.newsDate}
-                    aboutNews={item.aboutNews}
+                    title={item.title}
                     desc={item.desc}
                 />
             ))}
@@ -18,13 +19,13 @@ export function NewsList() {
     );
 }
 
-export function NewsMain({ newsImg, newsDate, aboutNews, desc }) {
+export function NewsMain({ newsImg, newsDate, title, desc }) {
     return (
         <main>
             <div className='box'>
                 <img src={newsImg} alt="Yangilik rasmi" />
                 <p>{newsDate}</p>
-                <h6>{aboutNews}</h6>
+                <Link to={'/news/deteils'}>{title}</Link>
                 <h5>{desc}</h5>
             </div>
         </main>

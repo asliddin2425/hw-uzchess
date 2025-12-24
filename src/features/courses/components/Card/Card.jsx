@@ -41,7 +41,7 @@ export function CardItem({Data}){
                     <p>{item.ratingNum}</p>
                 </div>
                 <div className={styles.lang}>
-                    <p>{item.Lang}</p>
+                    <p>{item.lang}</p>
                 </div>
             </div>
 

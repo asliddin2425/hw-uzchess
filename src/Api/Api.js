@@ -336,7 +336,7 @@ export const NewsData = [
         id: 1,
         newsImg: NewsImg1,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
+        title: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -345,7 +345,7 @@ export const NewsData = [
         id: 2,
         newsImg: NewsImg2,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "“Qo‘shnilarning buyuk jasorati”: Rossiyalik grossmeyster o‘zbek shaxmatining g‘alab...",
+        title: "“Qo‘shnilarning buyuk jasorati”: Rossiyalik grossmeyster o‘zbek shaxmatining g‘alab...",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -353,7 +353,7 @@ export const NewsData = [
         id: 3,
         newsImg: NewsImg3,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
+        title: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -361,7 +361,7 @@ export const NewsData = [
         id: 4,
         newsImg: NewsImg3,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
+        title: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -369,7 +369,7 @@ export const NewsData = [
         id: 5,
         newsImg: NewsImg4,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "Xalqaro shaxmat musobaqalari g‘oliblariga nima beriladi?",
+        title: "Xalqaro shaxmat musobaqalari g‘oliblariga nima beriladi?",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -377,7 +377,7 @@ export const NewsData = [
         id: 6,
         newsImg: NewsImg5,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
+        title: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -385,7 +385,7 @@ export const NewsData = [
         id: 7,
         newsImg: NewsImg2,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "“Qo‘shnilarning buyuk jasorati”: Rossiyalik grossmeyster o‘zbek shaxmatining g‘alab...",
+        title: "“Qo‘shnilarning buyuk jasorati”: Rossiyalik grossmeyster o‘zbek shaxmatining g‘alab...",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -393,7 +393,7 @@ export const NewsData = [
         id: 8,
         newsImg: NewsImg6,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
+        title: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -401,7 +401,7 @@ export const NewsData = [
         id: 9,
         newsImg: NewsImg3,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
+        title: "O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -409,7 +409,7 @@ export const NewsData = [
         id: 10,
         newsImg: NewsImg5,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "Xalqaro shaxmat musobaqalari g‘oliblariga nima beriladi?",
+        title: "Xalqaro shaxmat musobaqalari g‘oliblariga nima beriladi?",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -417,7 +417,7 @@ export const NewsData = [
         id: 11,
         newsImg: NewsImg2,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "“Qo‘shnilarning buyuk jasorati”: Rossiyalik grossmeyster o‘zbek shaxmatining g‘alab...",
+        title: "“Qo‘shnilarning buyuk jasorati”: Rossiyalik grossmeyster o‘zbek shaxmatining g‘alab...",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 
@@ -425,7 +425,7 @@ export const NewsData = [
         id: 12,
         newsImg: NewsImg1,
         newsDate: "Sentabr 7, 2022",
-        aboutNews: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
+        title: "Nodirbek Abdusattorov FIDE jonli reytingida 2700 balldan o‘tdi",
         desc: "O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘...."
     },
 ]
