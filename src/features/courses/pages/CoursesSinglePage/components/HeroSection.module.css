@@ -1,4 +1,4 @@
-.heroSection{
+.heroSection {
     display: flex;
     width: 1376px;
     height: 194px;
@@ -6,14 +6,16 @@
     border-radius: 8px;
     border: 1px solid #1F262B;
 }
-.backImg{
+
+.backImg {
     position: relative;
     display: flex;
     width: 1376px;
     height: 194px;
     filter: blur(15px);
 }
-.coursesAbout{
+
+.coursesAbout {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -24,7 +26,8 @@
     margin-left: 32px;
     margin-top: 32px;
 }
-.title{
+
+.title {
     width: 541px;
     height: 41px;
     color: white;
@@ -34,7 +37,8 @@
     font-weight: bold;
     user-select: none;
 }
-.pricesInfo{
+
+.pricesInfo {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -43,20 +47,23 @@
     gap: 8px;
     margin-top: -12px;
 }
-.newPrice{
+
+.newPrice {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
     color: white;
 }
-.oldPrice{
+
+.oldPrice {
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 400;
     color: #A4ACAF;
     text-decoration: line-through red;
 }
-.categories{
+
+.categories {
     user-select: none;
     position: absolute;
     display: flex;
@@ -69,7 +76,8 @@
     margin-left: 32px;
     margin-top: 138px;
 }
-.level{
+
+.level {
     display: flex;
     align-items: center;
     width: 118px;
@@ -79,11 +87,13 @@
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 400;
+
     &:hover {
         transform: scale(95%);
     }
 }
-.category{
+
+.category {
     display: flex;
     align-items: center;
     width: 102px;
@@ -93,11 +103,13 @@
     font-size: 14px;
     gap: 4px;
     font-weight: 400;
+
     &:hover {
         transform: scale(95%);
-   }
+    }
 }
-.lesson{
+
+.lesson {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -106,12 +118,13 @@
     font-size: 14px;
     gap: 4px;
     font-weight: 400;
-    &:hover{
+
+    &:hover {
         transform: scale(95%);
     }
 }
 
-.rating{
+.rating {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -122,36 +135,42 @@
     margin-top: 32px;
     margin-left: 1038px;
 }
-.stars{
+
+.stars {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 156px;
     height: 28px;
-    & img{
+
+    & img {
         width: 26px;
         height: 26px;
-    } 
+    }
 }
-.reviews{
+
+.reviews {
     display: flex;
     align-items: center;
     width: 119px;
     height: 24px;
-    & h5{
+
+    & h5 {
         color: white;
         font-size: 20px;
         font-family: sans-serif;
-        font-weight: 500; 
+        font-weight: 500;
     }
-    & p{
+
+    & p {
         color: #6D7274;
         font-size: 14px;
         font-family: sans-serif;
         font-weight: 500;
     }
 }
-.buttons{
+
+.buttons {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -162,7 +181,7 @@
     margin-left: 962px;
 }
 
-.buyCourse{
+.buyCourse {
     width: 250px;
     height: 50px;
     background-color: #1C92E0;
@@ -174,7 +193,8 @@
     font-weight: 500;
     cursor: pointer;
 }
-.like{
+
+.like {
     width: 50px;
     height: 50px;
     border-radius: 8px;
@@ -183,7 +203,7 @@
     background-color: #252F32;
 }
 
-.share{
+.share {
     width: 50px;
     height: 50px;
     border-radius: 8px;
@@ -194,209 +214,178 @@
 
 
 
-
-
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1026px;
-    min-height: 445px;
-    margin-top: 66px;
-    margin-left: 32px;
-    border-radius: 8px;
-    border:  1px solid #1F272A;
-    background-color: #1A1D1F;
-}
-
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 986px;
-    height: 36px;
-    margin-top: 14px;
-    margin-left: 20px;
-    & p{
-        font-size: 24px;
-        font-family: sans-serif;
-        font-weight: bold;
-        color: white;
-    }
-}
-
-.main{
-    display: flex;
-    flex-wrap: wrap;
+.selectedCourse {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    min-height: 239px;
-    margin-top: 16px;
-    background-color:  #212426;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
-.card1{
-    width: 312px;
-    height: 195px;
-    margin-top: 22px;
-    margin-left: 20px;
-    margin-bottom: 11px;
-    border-radius: 8px;
-    & p{
+
+.card {
+    position: relative;
+    width: 440px;
+    height: 552px;
+    background: #1A1D1F;
+    border-radius: 12px;
+    border: 1px solid #1F272A;
+}
+
+.payimg {
+    margin-left: 130px;
+}
+
+.buyCourseInfo {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    height: 117px;
+    margin-left: 24px;
+    border: 1.6px solid #25282A;
+    border-radius: 12px;
+
+    & p {
+        display: flex;
+        justify-content: center;
+        width: 368px;
+        height: 21px;
+        font-size: 16px;
+        margin-top: 12px;
+        font-family: sans-serif;
+        font-weight: 500;
+        color: #9FA1A2;
+    }
+
+    & h2 {
+        display: flex;
+        justify-content: center;
+        width: 368px;
+        height: 26px;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: -2px;
+    }
+
+    & h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 184px;
+        height: 30px;
+        gap: 12px;
         color: white;
         font-size: 20px;
         font-family: sans-serif;
-        font-weight: 500;
-        margin-top: 16px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-left: 104px;
     }
 }
-.cardItems{
-    width: 1026px;
-    height: 118px;
+
+.paymentType {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 392px;
+    height: 108px;
+    margin-top: 45px;
+    gap: 10px;
+    margin-left: 24px;
 }
 
-.section2{
+.paylov {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 188px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #212528;
+    background-color: #13181C;
+}
+
+.payBtn {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 1026px;
-    height: 51px;
-    border-bottom: 1px solid #282C2E;
-    & p{
-        color: white;
-        font-family: sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        margin-left: 20px;
-        user-select: none;
-        cursor: pointer;
-    }
-    & img{
-        margin-right: 20px;
-    }
+    width: 392px;
+    height: 44px;
+    margin-top: 30px;
+    margin-left: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.commentsBox{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1026px;
-    min-height: 818px;
-    margin-top: 64px;
-    margin-left: 32px;
-}
-
-.commentHeader{
-    display: flex;
-    align-items: center;
-    width: 1026px;
-    height: 42px;
-    font-size: 28px;
+.cancel {
+    width: 188px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    background-color: #313435;
+    color: white;
+    font-size: 16px;
     font-family: sans-serif;
-    font-weight: bold;
-    color:white;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(95%);
+    }
 }
-.commentMain{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1026px;
-    min-height: 699px;
+
+.continue {
+    width: 188px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1C92E0;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(95%);
+    }
+}
+
+.closeBtn {
+    width: 40px;
+    height: 40px;
+    margin-top: -510px;
+    margin-left: 12px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 30px;
     background-color: #1A1D1F;
 }
 
-.commentCard{
+.inProcesscard{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
     display: flex;
-    flex-direction: column;
-    width: 1006px;
-    height: 151px;
-    margin-left: 20px;
-    border-bottom: 1px solid #303335;
-}
-.userInfo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 986px;
-    height: 50px;
-    margin-top: 24px;
-    margin-left: 20px;
-}
-.userInfoCard{
-    display: flex;
-    align-items: center;
-    width: 393px;
-    height: 50px;
-}
-.userName{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    width: 337px;
-    height: 50px;
-    & p{
-        display: flex;
-        justify-content: start;
-        width: 217px;
-        height: 25px;
-        color: white;
-        font-size: 20px;
-        margin-top: 0px;
-        font-family: sans-serif;
-        font-weight: 500;
-    }
-    & h6{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 337px;
-        height: 23px;
-        color: #9DA1A3;
-        font-size: 18px;
-        margin-top: -14px;
-        font-family: sans-serif;
-        font-weight: 400;
-        & img{
-            width: 20px;
-            height: 20px;
-            
-        }
-    }
+    z-index: 1000;
 }
 
-.comment{
-    width: 986px;
-    height: 72px;
-    color: white;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 400;
-    line-height: auto;
-    letter-spacing: 0px;
-    margin-top: 16px;
-    margin-left: 20px;
-}
-
-.allComments{
-    width: 184px;
-    height: 40px;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: sans-serif;
-    margin-left: 421px;
-    margin-top: 24px;
-    background-color: #282A2C;
+.inProcessDialog{
+    position: relative;
+    width: 440px;
+    height: 283px;
+    background: #1A1D1F;
+    border-radius: 12px;
+    border: 1px solid #1F272A;
 }

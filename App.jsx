@@ -13,7 +13,9 @@ import { GamesPage } from './src/features/main/pages/games/GamesPage'
 import { GeneralSettingsPages } from './src/features/profile/pages/generalSettingsPage/GeneralSettingsPage'
 import { SavesPage } from './src/features/profile/pages/savesPage/SavesPage'
 import { Filter } from './src/features/profile/components/Filter/Filter'
-import { CoursesSingle } from './src/features/courses/components/CoursesSingle'
+import { CoursesSingle } from './src/features/courses/pages/CoursesSinglePage/page/CoursesSingle'
+import { OtherPages } from './src/features/otherPages/pages/OtherPAges'
+import { NewsDeteils } from './src/features/news/pages/newsDeteils/NewsDeteils'
 
 const router = createBrowserRouter([
     {
@@ -32,8 +34,9 @@ const router = createBrowserRouter([
             { path: 'orders', element: <OrdersPage /> },
             { path: 'settings', element: <GeneralSettingsPages /> },
             { path: 'saves', element: <SavesPage /> },
-            {path: 'courses/single', element: <CoursesSingle/>}
-
+            {path: 'courses/single', element: <CoursesSingle/>},
+            { path: 'boglanish', element: <OtherPages /> },
+            {path: '/news/deteils', element: <NewsDeteils/>}
         ]
     }
 ])

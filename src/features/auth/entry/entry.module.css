@@ -1,0 +1,21 @@
+.container123{
+        position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+}
+.box123{
+    position: relative;
+        width: 440px;
+        height: 283px;
+        background: #1A1D1F;
+        border-radius: 12px;
+        border: 1px solid #1F272A;
+}
+

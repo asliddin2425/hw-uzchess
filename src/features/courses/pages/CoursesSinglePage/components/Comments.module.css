@@ -1,0 +1,121 @@
+.commentsBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1026px;
+    min-height: 818px;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.commentHeader {
+    display: flex;
+    align-items: center;
+    width: 1026px;
+    height: 42px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.commentMain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1026px;
+    min-height: 699px;
+    background-color: #1A1D1F;
+}
+
+.commentCard {
+    display: flex;
+    flex-direction: column;
+    width: 1006px;
+    height: 151px;
+    margin-left: 20px;
+    border-bottom: 1px solid #303335;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 986px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.userInfoCard {
+    display: flex;
+    align-items: center;
+    width: 393px;
+    height: 50px;
+}
+
+.userName {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 337px;
+    height: 50px;
+
+    & p {
+        display: flex;
+        justify-content: start;
+        width: 217px;
+        height: 25px;
+        color: white;
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    & h6 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 337px;
+        height: 23px;
+        color: #9DA1A3;
+        font-size: 18px;
+        margin-top: -14px;
+        font-family: sans-serif;
+        font-weight: 400;
+
+        & img {
+            width: 20px;
+            height: 20px;
+
+        }
+    }
+}
+
+.comment {
+    width: 986px;
+    height: 72px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 0px;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.allComments {
+    width: 184px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 421px;
+    margin-top: 24px;
+    background-color: #282A2C;
+}
